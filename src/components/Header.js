@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -55,12 +56,13 @@ const Header = () => {
           </MenuItem>
           <MenuItem
             component={Link}
-            to="/about-us/members"
+            to="/about-us/team"
             onClick={handleMenuClose}
           >
             Team
           </MenuItem>
         </Menu>
+        <ThemeToggle />
       </Toolbar>
     </AppBar>
   );

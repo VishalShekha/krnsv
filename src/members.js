@@ -11,6 +11,24 @@ const members = [
     position: "Designer",
     photo: "https://via.placeholder.com/150",
   },
+  {
+    name: "John Doe",
+    phone: "123-456-7890",
+    position: "Developer",
+    photo: "https://via.placeholder.com/150",
+  },
+  {
+    name: "John Doe",
+    phone: "123-456-7890",
+    position: "Developer",
+    photo: "https://via.placeholder.com/150",
+  },
+  {
+    name: "John V Doe",
+    phone: "123-456-7890",
+    position: "Developer",
+    photo: "https://via.placeholder.com/150",
+  },
   // Add more members here
 ];
 

@@ -10,7 +10,7 @@ const MemberList = () => {
     <Container>
       <Grid container spacing={3} justifyContent="center">
         {members.map((member, index) => (
-          <Grid item key={index}>
+          <Grid item key={index} xs={12} sm={4} md={4} lg={4} xl={4}>
             <MemberCard member={member} />
           </Grid>
         ))}
@@ -20,3 +20,11 @@ const MemberList = () => {
 };
 
 export default MemberList;
+
+/*
+xs={12}: 1 card per row on extra-small screens.
+sm={6}: 2 cards per row on small screens.
+md={4}: 3 cards per row on medium screens.
+lg={3}: 4 cards per row on large screens.
+xl={2}: 6 cards per row on extra-large screens.
+*/
