@@ -32,6 +32,9 @@ const Header = () => {
         <Button color="inherit" component={Link} to="/events">
           Events
         </Button>
+        <Button color="inherit" component={Link} to="/members">
+          Members
+        </Button>
         <Button
           color="inherit"
           aria-controls="about-us-menu"
